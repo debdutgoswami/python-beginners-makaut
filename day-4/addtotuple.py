@@ -1,0 +1,5 @@
+tup = (1,2,3,4)
+n = int(input("enter the element to be inserted: "))
+print("the initial tuple is",tup)
+tup += (n,)
+print("the new tuple is",tup)
